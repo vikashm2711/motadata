@@ -35,7 +35,7 @@ New-AzResourceGroupDeployment -ResourceGroupName $ResourceGroupName `
     -location $ResourceGroupLocation
 Write-Host "Azure Function App '$FunctionName' deployed successfully."
 
-# # Create the diagnostic setting for Event Hubs
+# # # Create the diagnostic setting for Event Hubs
 # $storageAccountId = "/subscriptions/$SubscriptionId/resourceGroups/$ResourceGroupName/providers/Microsoft.Storage/storageAccounts/<storage-account-name>"
 # $eventHubAuthorizationRuleId = "/subscriptions/$SubscriptionId/resourceGroups/$ResourceGroupName/providers/Microsoft.EventHub/namespaces/$EventhubNamespace/authorizationrules/<authorization-rule-name>"
 # $eventHubRuleId = "/subscriptions/$SubscriptionId/resourceGroups/$ResourceGroupName/providers/Microsoft.EventHub/namespaces/$EventhubNamespace/eventhubs/$EventhubName/authorizationrules/RootManageSharedAccessKey"
