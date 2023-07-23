@@ -103,7 +103,7 @@
                         },
                         {
                             "name": "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING",
-                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',variables('storageAccountName'),';AccountKey=',listkeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2018-11-01').keys[0].value,';','EndpointSuffix=',parameters('endpointSuffix'),';')]"
+                            "value": "DefaultEndpointsProtocol=https;AccountName=t5ha4246vt2qkstorageacct;AccountKey=YayANZbbk39OQ3ewAGpCwLIJkn099LjVxNi0fmmYcVA3nnzJjjFv2Lu7t1Z1QndDwf9Pb9Kr6ZMJ+AStf9nXmQ==;EndpointSuffix=core.windows.net"
                         },
                         {
                             "name": "WEBSITE_CONTENTSHARE",
